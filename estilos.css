@@ -1,0 +1,132 @@
+body {
+    font-family: 'Poppins';
+}
+
+header .contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: style none;
+}
+
+.contenedor { 
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    margin-right: 20px;
+}
+
+header p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#encabezado {
+    background: 
+    url(encabezado.jpg);
+    background-size: cover;
+    padding: 170px 0;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: 'Lora', serif;
+    color: #280400;
+    margin-bottom: 0;
+}
+
+#encabezado p {
+    width: 50%;
+    color: #666;
+    margin-bottom: 50px;
+}
+
+#encabezado a, #contact .izquierda a{
+    text-decoration: none;
+    color: #280400;
+    border: 1px solid
+    #280400;
+    padding: 20px 40px 20px 40px;
+}
+
+#encabezado a:hover,
+#contact a:hover {
+    background: #280400;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.columnas {
+    display: flex;
+    
+}
+
+.columnas img {
+    width: 50%
+}
+
+.columna p {
+    color: #666;
+}
+
+.columna1 p {
+    color: #280400;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    background:url(winery-37.png);
+    background-size:cover;
+    padding: 80px 0;
+}
+
+#contact .izquierda {
+    width: 40%;
+}
+
+#contact h2 {
+    font-size: 80px;
+    font-family: 'Lora', serif;
+    color: #280400;
+    margin-bottom: 50px;
+
+}
+
+#contact .izquierda p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 40px;
+}
+
+#contact .derecha {
+    background: #280400;
+    color:#fff;
+    padding: 80px 30px;
+}
+
+.datos {
+    font-size: 13px;
+}
+
+.derecha h3 {
+    font-size: 40px;
+}
+
+.derecha a { 
+    color: #fff;
+    border: 1px solid
+    rgba(232,226,215,0.2);
+    text-decoration: none;
+    padding: 15px 30px;
+}
+
